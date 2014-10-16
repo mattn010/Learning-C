@@ -38,6 +38,7 @@ int main(int argc, char *argv[])
 	}
 
 	printf("-----\n");
+	
 	//POINTERS: STUPID WAY
 
 	for(cur_name = names, cur_age = ages; (cur_age - ages) < count; cur_name++, cur_age++){
